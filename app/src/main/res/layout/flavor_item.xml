@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--This linear layout should be the list view templates-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/customTitleBar"
+        android:layout_above="@+id/footer"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            >
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/vanilla"
+                android:id="@+id/vanilla"
+                android:layout_marginRight="8dp"
+                />
+
+            <TextView
+                android:id="@+id/vanilla_flavor"
+                android:textColor="@color/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/vanilla"
+                android:layout_toRightOf="@+id/vanilla"
+                android:textSize="@dimen/flavor"
+                android:text="Vanilla"
+                android:textStyle="bold" />
+
+
+            <TextView
+
+                android:text="12 places to buy from"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/vanilla_flavor"
+                android:layout_marginTop="1dip"
+                android:textColor="@color/minitext"
+                android:layout_toRightOf="@+id/vanilla"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+
+
+        <!--This view should be used as the list divider-->
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:layout_marginTop="2dp"-->
+            <!--android:layout_marginBottom="2dp"-->
+            <!--android:background="#bdc3c7">-->
+
+        <!--</View>-->
+        <!--End of view-->
+
+
+
+
+
+    </LinearLayout>
+    <!--End of the listview template-->
+
+</LinearLayout>

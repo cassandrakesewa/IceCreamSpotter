@@ -1,0 +1,45 @@
+<!--This linear layout should be the list view templates-->
+<LinearLayout
+    android:orientation="vertical"
+   android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+
+
+        <TextView
+            android:id="@+id/location"
+            android:textColor="@color/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/title"
+            android:text="East Legon"
+            android:textStyle="bold" />
+
+        <!-- Rating -->
+        <TextView
+            android:id="@+id/numberOfSpot"
+            android:text="8 ice cream spots"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/location"
+            android:layout_marginTop="1dip"
+            android:textColor="@color/minitext"
+            android:textSize="@dimen/minitext" />
+    </RelativeLayout>
+    <!--This view should be used as the list divider-->
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:layout_marginBottom="5dp"-->
+        <!--android:background="#bdc3c7">-->
+
+    <!--</View>-->
+    <!--End of view-->
+</LinearLayout>

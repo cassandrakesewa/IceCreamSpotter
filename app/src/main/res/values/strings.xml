@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">IceCreamSpotter</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_home">home</string>
+    <string name="joint_title">Select Prefered Joint</string>
+
+    <string-array name="locations">
+        <item>East legon</item>
+        <item>Osu</item>
+        <item>Accra Mall</item>
+    </string-array>
+
+
+
+    <string-array name="diffflavors">
+        <item>Vanilla</item>
+        <item>Chocolate</item>
+        <item>Chocolate Chips</item>
+        <item>Strawberry</item>
+        <item>Cherry</item>
+        <item>cookies and Cream</item>
+        <item>French Vanilla</item>
+        <item>Neopolitan</item>
+        <item>Vanilla Fudge</item>
+        <item>Praline</item>
+    </string-array>
+
+    <string-array name="East_legon">
+        <item>Pinocchio</item>
+        <item>Arlecchinos</item>
+    </string-array>
+
+    <string-array name="Osu">
+        <item>Pinocchio</item>
+        <item>Frankies</item>
+        <item>Arlecchinos</item>
+        <item>Tresence Café Gelateria</item>
+        <item>Barcelos Chicken</item>
+    </string-array>
+
+    <string-array name="Accra_mall">
+        <item>Pinocchio</item>
+        <item>Frankies</item>
+        <item>Scoop Bar</item>
+        <item>Barcelos Chicken</item>
+    </string-array>
+
+    <string-array name="vanilla">
+        <item>Pinocchio</item>
+        <item>Arlecchino</item>
+        <item>Frankies</item>
+        <item>Scoop Bar</item>
+    </string-array>
+
+    <string-array name="chocolate">
+        <item>Pinocchio</item>
+        <item>Arlecchinos</item>
+        <item>Frankies</item>
+        <item>Tresence Café Gelateria</item>
+    </string-array>
+
+    <string-array name="cholate_chips">
+        <item>Arlecchinos</item>
+        <item>Frankies</item>
+        <item>Tresence Café Gelateria</item>
+    </string-array>
+
+    <string-array name="strawberry">
+        <item>Pinocchio</item>
+        <item>Arlecchino</item>
+        <item>Frankies</item>
+        <item>Barcelos Chicken</item>
+    </string-array>
+
+
+    <!-- joints and their flavors-->
+
+    <string-array name="spotsIndentifier">
+        <item>Pinocchio</item>
+        <item>Frankies</item>
+        <item>Arlecchinos</item>
+        <item>Tresence Café Gelateria</item>
+        <item>Barcelos Chicken</item>
+        <item>Scoop Bar</item>
+    </string-array>
+
+    <!-- Data to be shown when a joint is clicked -->
+    <string-array name="pinocchio">
+        <item>Vanilla</item>
+        <item>Chocolate</item>
+        <item>Chocolate Chips</item>
+        <item>Strawberry</item>
+        <item>Cherry</item>
+    </string-array>
+
+    <string-array name="frankies">
+        <item>Chocolate</item>
+        <item>Chocolate Chips</item>
+        <item>Strawberry</item>
+        <item>Cherry</item>
+        <item>cookies and Cream</item>
+        <item>French Vanilla</item>
+        <item>Neopolitan</item>
+    </string-array>
+
+    <string-array name="arlecchinos">
+        <item>Vanilla</item>
+        <item>Chocolate</item>
+        <item>Chocolate Chips</item>
+        <item>Strawberry</item>
+        <item>Cherry</item>
+        <item>Neopolitan</item>
+        <item>Vanilla Fudge</item>
+        <item>Praline</item>
+    </string-array>
+
+    <string-array name="tresencecafégelateria">
+        <item>French Vanilla</item>
+        <item>Neopolitan</item>
+        <item>Vanilla Fudge</item>
+        <item>Praline</item>
+    </string-array>
+
+    <string-array name="barceloschicken">
+        <item>Vanilla</item>
+        <item>Chocolate</item>
+        <item>Chocolate Chips</item>
+        <item>Strawberry</item>
+        <item>Cherry</item>
+        <item>cookies and Cream</item>
+        <item>French Vanilla</item>
+    </string-array>
+
+    <string-array name="scoopbar">
+        <item>Chocolate Chips</item>
+        <item>Strawberry</item>
+        <item>Cherry</item>
+        <item>cookies and Cream</item>
+        <item>French Vanilla</item>
+    </string-array>
+
+
+
+
+    <string name="title_activity_spot_details">SpotDetailsActivity</string>
+</resources>

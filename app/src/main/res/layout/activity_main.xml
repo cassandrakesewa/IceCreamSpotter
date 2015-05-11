@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgone">
+
+    <LinearLayout
+        android:id="@+id/customTitleBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Location"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/minitext"
+            />
+
+    </LinearLayout>
+
+
+    <!--End of the listview template-->
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/customTitleBar"
+        android:layout_above="@+id/custom_footer"
+        android:orientation="vertical"
+        android:id="@android:id/list"
+        android:divider="#ecf0f1"
+        android:dividerHeight="1dp"
+       >
+
+    </ListView>
+
+
+
+    <LinearLayout
+        android:id="@+id/custom_footer"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="#34465E"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:layout_marginBottom="1dp"-->
+        <!--android:background="#ecf0f1">-->
+
+    <!--</View>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+
+        >
+
+        <LinearLayout
+            android:id="@+id/tab_nearby"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:background="#ff30405e"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/pin_active" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Location"
+                android:textColor="#d35400"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tab_mystreams"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="showFlavors"
+            android:paddingTop="5dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/flavor"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Flavors"
+                android:textColor="#ecf0f1"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+
+      </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
